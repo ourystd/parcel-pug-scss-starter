@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "posthtml-beautify": {
+      "rules": {
+        "blankLines": false
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "parcel-pug-scss-starter",
+  "description": "Simple boilerplate to start building html templates with parcel, pug, scss, and modern javascript.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Oury Diallo",
+    "url": "https://www.oury.dev",
+    "email": "ourystd224@gmail.com"
+  },
+  "keywords": [
+    "parcel",
+    "pug",
+    "scss",
+    "bundler",
+    "parcel-pug"
+  ],
+  "homepage": "https://github.com/ourystd/parcel-pug-scss-starter",
+  "bugs": {
+    "url": "https://github.com/ourystd/parcel-pug-scss-starter/issues"
+  },
+  "source": "src/index.pug",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "parcel-namer-struct": [
+    {
+      "type": [
+        "scss",
+        "css"
+      ],
+      "dest": "/styles/"
+    },
+    {
+      "type": [
+        "js"
+      ],
+      "dest": "/scripts/"
+    },
+    {
+      "type": [
+        "jpeg",
+        "jpg",
+        "png"
+      ],
+      "dest": "/images/"
+    }
+  ],
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.7.0",
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2.7.0",
+    "parcel-namer-struct": "^1.0.0",
+    "posthtml-beautify": "^0.7.0"
+  }
+}

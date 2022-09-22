@@ -1,0 +1,13 @@
+#pacel
+.parcel-cache/
+dist/
+
+#dependencies
+node_modules/
+
+#logs
+yarn-error.log*
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*

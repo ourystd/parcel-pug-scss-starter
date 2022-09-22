@@ -1,0 +1,21 @@
+h1 {
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+body {
+  background: linear-gradient(78deg, #222, #555) no-repeat fixed;
+  background-size: cover;
+  color: #eee;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+
+  &:hover {
+    background-color: #484848;
+  }
+}
